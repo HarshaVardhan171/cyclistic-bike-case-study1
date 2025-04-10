@@ -1,0 +1,35 @@
+Cyclistic Bike-Share Case Study: Business Task
+
+Clear Statement of the Business Task
+The primary business task is to analyze how annual members and casual riders use Cyclistic bikes differently. This analysis will inform the marketing team's strategy to convert casual riders into annual members, which has been identified as key to future growth and profitability.
+
+Key Stakeholders
+1.	Lily Moreno - Director of Marketing and direct manager. She is responsible for developing campaigns and initiatives to promote the bike-share program and has set the goal of converting casual riders to annual members.
+2.	Cyclistic Marketing Analytics Team - Responsible for collecting, analyzing, and reporting data to guide marketing strategy.
+3.	Cyclistic Executive Team - Will make the final decision on approving the recommended marketing program. They are described as "notoriously detail-oriented."
+
+Business Context
+•	Cyclistic is a bike-share company in Chicago with 5,824 bicycles and 692 stations.
+•	The company offers flexible pricing: single-ride passes, full-day passes, and annual memberships.
+•	Customers who purchase single-ride or full-day passes are classified as "casual riders."
+•	Customers who purchase annual memberships are classified as "Cyclistic members."
+•	Finance analysts have concluded that annual members are much more profitable than casual riders.
+•	The marketing director believes there is an opportunity to convert casual riders into members since they are already aware of Cyclistic's services.
+
+Required Deliverables
+1.	A clear statement of the business task
+2.	A description of all data sources used
+3.	Documentation of any cleaning or manipulation of data
+4.	A summary of the analysis
+5.	Supporting visualizations and key findings
+6.	Top three recommendations based on the analysis
+Analysis Approach
+The analysis will follow the data analysis process:
+1.	Ask - Define the business question (already established)
+2.	Prepare - Download and organize the data
+3.	Process - Clean and transform the data
+4.	Analyze - Identify patterns and trends
+5.	Share - Create visualizations and present findings
+6.	Act - Develop recommendations
+
+The primary focus is on understanding the differences in how annual members and casual riders use Cyclistic bikes, which will inform strategies to convert casual riders into annual members.

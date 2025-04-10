@@ -1,0 +1,31 @@
+Key Visualizations for Cyclistic Bike-Share Analysis
+This document presents the key visualizations from our analysis of how annual members and casual riders use Cyclistic bikes differently. These visualizations support the findings detailed in the analysis summary.
+
+1. Ride Duration Differences
+The visualization above clearly shows that casual riders take significantly longer trips on average compared to members. This suggests that casual riders are using the bikes more for leisure activities, while members may be using them for more practical, routine trips like commuting.
+
+2. Usage Patterns by Day of Week
+This visualization demonstrates that members use bikes more consistently throughout the weekdays, while casual riders show higher usage on weekends (Saturday and Sunday). This further supports the hypothesis that members are using bikes for commuting to work, while casual riders are using them more for recreational purposes.
+The average ride duration by day of week also shows that casual riders consistently take longer trips than members across all days of the week. Interestingly, both user types tend to take longer rides on weekends.
+
+3. Time of Day Patterns
+This hourly breakdown reveals that members show peak usage during typical commuting hours (8 AM and 5 PM), strongly suggesting they use bikes for commuting to and from work. Casual riders show a more distributed usage throughout the day, with a gradual increase toward afternoon and evening hours.
+When grouped into broader time categories, we can see that both user types have the highest number of rides in the afternoon, but members have a much higher proportion of early morning rides compared to casual riders.
+
+4. Monthly Patterns
+This visualization shows the usage patterns across the months in our dataset (January through March). Both user types show increasing usage as the weather improves from winter to spring, but members maintain a much higher volume of rides throughout.
+
+5. Popular Stations
+These visualizations highlight the different starting locations preferred by each user type. Members tend to start their trips from stations in business districts and transportation hubs, while casual riders prefer stations near tourist attractions and recreational areas along the lakefront.
+
+6. Ride Duration Distribution
+This distribution plot shows that most member rides are concentrated in the shorter duration range (under 20 minutes), while casual rides have a wider distribution with a significant number of longer trips. This further emphasizes the different usage patterns between the two user types.
+
+Conclusion
+These visualizations clearly illustrate the key differences in how annual members and casual riders use Cyclistic bikes:
+1.	Members take shorter, more consistent trips, likely for commuting purposes
+2.	Casual riders take longer trips, with higher weekend usage, suggesting recreational use
+3.	Members show peak usage during commuting hours, while casual riders' usage is more evenly distributed
+4.	The two user groups prefer different starting and ending locations, reflecting their different purposes for using the bikes
+These insights will inform our recommendations for marketing strategies to convert casual riders into annual members.
+

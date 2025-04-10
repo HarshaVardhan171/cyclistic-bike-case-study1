@@ -1,0 +1,45 @@
+Cyclistic Bike-Share Case Study
+
+Business Task
+ 	Define the clear business task based on the case study
+ 	Identify key stakeholders and their needs
+
+Data Preparation
+ 	Download the previous 12 months of Cyclistic trip data
+ 	Organize data in appropriate folders with proper naming conventions
+ 	Assess data organization and structure
+ 	Evaluate data credibility (ROCCC)
+ 	Address data integrity, privacy, and security concerns
+
+Data Processing
+ 	Choose appropriate tools for analysis
+ 	Check data for errors and clean as needed
+ 	Create ride_length column to calculate trip duration
+ 	Create day_of_week column to identify ride days
+ 	Document all cleaning and transformation steps
+
+Data Analysis
+ 	Combine data into a single dataset for analysis
+ 	Perform descriptive analysis (mean, max, mode)
+ 	Create pivot tables for comparative analysis
+ 	Analyze differences between annual members and casual riders
+ 	Identify trends and patterns in the data
+
+Data Visualization
+ 	Determine appropriate visualization types
+ 	Create visualizations showing key differences between user types
+ 	Ensure visualizations are clear, professional, and accessible
+ 	Add proper titles, labels, and explanations
+Recommendations
+ 	Develop top three recommendations based on analysis
+ 	Ensure recommendations address the business task
+ 	Support recommendations with data insights
+
+Final Report
+ 	Compile all deliverables into a comprehensive report
+ 	Include clear statement of business task
+ 	Include description of data sources
+ 	Document data cleaning process
+ 	Summarize analysis findings
+ 	Present supporting visualizations
+ 	Present top three recommendations
