@@ -2,20 +2,14 @@ Cyclistic Bike-Share Analysis Summary
 Overview
 This analysis examines how annual members and casual riders use Cyclistic bikes differently, based on data from Q1 2019 and Q1 2020.
 Basic Statistics
-Overall Ride Statistics (in minutes)
-count    784285.000000
-mean         19.921240
-std         556.242799
-min           1.000000
-25%           5.550000
-50%           9.033333
-75%          15.250000
-max      177200.366667
 Ride Statistics by Member Type (in minutes)
-                  count       mean          std       min        25%        50%        75%            max
-member_casual                                                                                            
-casual    67692.0  89.790076  1668.852070  1.016667  13.083333  23.266667  39.400000 177200.366667
-member 716593.0  13.321173   273.943219  1.000000   5.333333   8.500000  13.766667  101607.133333
+	                      member	    casual
+Total Rides	            716568	     67692
+Average Ride Duration	 13.32076275	89.78563242
+Median Ride Duration	     8.5	     23.27
+Max Ride Duration	      101607.17	   177140
+Min Ride Duration	        1.02	      1.02
+
 Key Findings
 1. Ride Duration Differences
 •	Average ride duration for members: 13.32 minutes
@@ -23,104 +17,75 @@ Key Findings
 •	Casual riders' trips are 574.0% longer on average than member trips
 2. Day of Week Patterns
 Average Ride Length by Day of Week (in minutes)
-member_casual      casual     member
-day_name                            
-Friday         101.727101  13.340293
-Monday          79.359406  13.772820
-Saturday        82.616519  16.328252
-Sunday          84.652870  16.343304
-Thursday       141.255042  11.844649
-Tuesday         76.257797  12.881212
-Wednesday       74.983094  11.920988
-Number of Rides by Day of Week
-member_casual  casual  member
-day_name                     
-Friday           7996  114624
-Monday           5580  109873
-Saturday        13456   59065
-Sunday          18586   59716
-Thursday         7127  124598
-Tuesday          7289  127391
-Wednesday        7658  121326
+Average of trip_duration	Column Labels		
+Day of week	      casual	member	Grand Total
+Monday	           79.36	 13.77	    16.94
+Tuesday	           76.26	 12.88	    16.31
+Wednesday	         74.98	 11.92	    15.67
+Thursday	         141.24	 11.85	    18.85
+Friday	           101.73	 13.34	    19.10
+Saturday	         82.61	 16.32	    28.62
+Sunday	           84.65	 16.34	    32.55
+Grand Total	       89.79	 13.32	    19.92
+
+Sum of Ride_duration by Day of Week
+Sum of trip_duration		
+Day of week	  casual	    member	   Grand Total
+Monday	     442825.24	 1513137.70	 1955962.94
+Tuesday	     555843.34	 1640947.60	 2196790.94
+Wednesday	   574220.43	 1446318.21	 2020538.64
+Thursday	   1006604.58	 1475813.71	 2482418.29
+Friday	     813409.61	 1529054.56	 2342464.17
+Saturday	   1111627.90	 964186.52	 2075814.42
+Sunday	     1573237.93	 975774.02	 2549011.95
+Grand Total	 6077769.03	 9545232.32	 15623001.35
+
 3. Time of Day Patterns
-Average Ride Length by Time of Day (in minutes)
-member_casual            casual     member
-time_of_day                               
-Afternoon (12-17)     77.957130  13.073247
-Early Morning (5-9)   81.725192  11.598636
-Evening (17-20)       89.445712  15.243564
-Morning (9-12)       116.095878  11.991252
-Night (20-5)         129.006385  15.513868
-Number of Rides by Time of Day
-member_casual        casual  member
-time_of_day                        
-Afternoon (12-17)     35870  216880
-Early Morning (5-9)    3509  173358
-Evening (17-20)       13718  183039
-Morning (9-12)         8899   89063
-Night (20-5)           5696   54253
-4. Seasonal Patterns
-Average Ride Length by Season (in minutes)
-member_casual      casual     member
-season                              
-Spring          63.709806  13.664990
-Winter         128.493691  13.120538
-Number of Rides by Season
-member_casual  casual  member
-season                       
-Spring          40441  264071
-Winter          27251  452522
+Count of  ride_id	
+Hour of Week	casual	member	Grand Total
+0	465	2938	3403
+1	331	1727	2058
+2	248	1125	1373
+3	145	890	1035
+4	95	1981	2076
+5	196	9011	9207
+6	471	27621	28092
+7	1010	58358	59368
+8	1832	78360	80192
+9	1869	35803	37672
+10	2788	24126	26914
+11	4242	29132	33374
+12	5620	33345	38965
+13	7158	32845	40003
+14	7682	32003	39685
+15	7802	42747	50549
+16	7608	75934	83542
+17	6988	95377	102365
+18	4261	55268	59529
+19	2469	32388	34857
+20	1532	19121	20653
+21	1297	13555	14852
+22	937	8248	9185
+23	646	4665	5311
+Grand Total	67692	716568	784260
 
-5. Popular Stations
-Top 10 Start Stations for Members
-          start_station_name          number_of_rides
-         Canal St & Adams St            13754
-Clinton St & Washington Blvd            13392
-     Clinton St & Madison St            12838
-    Kingsbury St & Kinzie St             8687
-   Columbus Dr & Randolph St             8467
-       Canal St & Madison St             7861
-     Franklin St & Monroe St             6973
-Michigan Ave & Washington St             6673
-  Larrabee St & Kingsbury St             6443
-        Clinton St & Lake St             6420
-Top 10 Start Stations for Casual Riders
-          start_station_name  number_of_rides
-     Streeter Dr & Grand Ave             2741
-   Lake Shore Dr & Monroe St             2731
-              Shedd Aquarium             1829
-             Millennium Park             1404
-       Michigan Ave & Oak St             1015
-Michigan Ave & Washington St              838
-              Dusable Harbor              832
-           Adler Planetarium              825
-         Theater on the Lake              793
-  Lake Shore Dr & North Blvd              603
 
-Top 10 End Stations for Members
-            end_station_name        number_of_rides
-         Canal St & Adams St            14762
-Clinton St & Washington Blvd            14542
-     Clinton St & Madison St            13178
-    Kingsbury St & Kinzie St             8765
-       Canal St & Madison St             8243
-Michigan Ave & Washington St             7661
-        Clinton St & Lake St             6690
-     Franklin St & Monroe St             6278
-          Daley Center Plaza             6272
-   LaSalle St & Jackson Blvd             6208
-Top 10 End Stations for Casual Riders
-            end_station_name  number_of_rides
-     Streeter Dr & Grand Ave             3782
-   Lake Shore Dr & Monroe St             2159
-             Millennium Park             1932
-              Shedd Aquarium             1458
-       Michigan Ave & Oak St             1183
-         Theater on the Lake             1078
-Michigan Ave & Washington St              964
-  Lake Shore Dr & North Blvd              768
-      Wabash Ave & Grand Ave              743
-           Adler Planetarium              710
+4. Popular Stations
+Count of  ride_id	
+Popular Start Station	casual	member	Grand Total
+Canal St & Adams St	356	13752	14108
+Canal St & Madison St	251	7859	8110
+Clinton St & Lake St	234	6420	6654
+Clinton St & Madison St	471	12838	13309
+Clinton St & Washington Blvd	203	13389	13592
+Columbus Dr & Randolph St	564	8467	9031
+Franklin St & Monroe St	217	6973	7190
+Kingsbury St & Kinzie St	301	8686	8987
+Larrabee St & Kingsbury St	240	6443	6683
+Michigan Ave & Washington St	838	6673	7511
+Grand Total	3675	91500	95175
+
+
 
 Conclusions
 Based on the analysis, there are several key differences in how annual members and casual riders use Cyclistic bikes:
